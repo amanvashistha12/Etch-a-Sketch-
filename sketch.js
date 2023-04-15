@@ -10,8 +10,8 @@ function createGrid(rows,columns){
 
     for(let i = 0; i< rows*columns;i++){    
         const squareDiv = document.createElement("div");
-        squareDiv.classList.add("square");
-        squareDiv.style.backgroundColor="red";
+        squareDiv.classList.add("square-div");
+   
 
         container.appendChild(squareDiv);       
 
